@@ -105,7 +105,7 @@ namespace Example
 <a name="documentation-for-api-endpoints"></a>
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://localhost/event*
+All URIs are relative to *https://staging.thirdwatch.co/event*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
