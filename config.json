@@ -1,0 +1,6 @@
+{
+"packageName": "ai.thirdwatch",
+"packageVersion": "0.0.1",
+"sourceFolder": "thirdwatch_api",
+"modelPropertyNaming": "camelCase"
+}
