@@ -53,12 +53,12 @@ namespace ai.thirdwatch.Client
         public ApiClient()
         {
             Configuration = ai.thirdwatch.Client.Configuration.Default;
-            RestClient = new RestClient("https://staging.thirdwatch.co/event");
+            RestClient = new RestClient("https://api.thirdwatch.ai/event");
         }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ApiClient" /> class
-        /// with default base path (https://staging.thirdwatch.co/event).
+        /// with default base path (https://api.thirdwatch.ai/event).
         /// </summary>
         /// <param name="config">An instance of Configuration.</param>
         public ApiClient(Configuration config)
@@ -73,7 +73,7 @@ namespace ai.thirdwatch.Client
         /// with default configuration.
         /// </summary>
         /// <param name="basePath">The base path.</param>
-        public ApiClient(String basePath = "https://staging.thirdwatch.co/event")
+        public ApiClient(String basePath = "https://api.thirdwatch.ai/event")
         {
            if (String.IsNullOrEmpty(basePath))
                 throw new ArgumentException("basePath cannot be empty");
