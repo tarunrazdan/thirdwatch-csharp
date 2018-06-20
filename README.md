@@ -5,10 +5,10 @@ The first version of the Thirdwatch API is an exciting step forward towards maki
 
 # Introduction 
 
-Once you've [registered your website/app](https://dashboardstaging.thirdwatch.co/login) it's easy to start sending data to Thirdwatch.  All endpoints are only accessible via https and are located at `staging.thirdwatch.co`. 
+Once you've [registered your website/app](https://dashboard.thirdwatch.ai/login) it's easy to start sending data to Thirdwatch.  All endpoints are only accessible via https and are located at `api.thirdwatch.ai`. 
 For instance: you can send event at the moment by ```HTTPS POST``` request to the following URL with your API key in ```Header``` and ```JSON``` data in request body. 
 
-```   https://staging.thirdwatch.co/event/v1 ``` 
+```   https://api.thirdwatch.ai/event/v1 ``` 
 
 Every API request must contain ```API Key``` in header value ```X-THIRDWATCH-API-KEY```. Every event must contain your ```_userId``` (if this is not available, you can alternatively provide a ```_sessionId``` value also in ```_userId```). 
 
